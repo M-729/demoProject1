@@ -1,0 +1,58 @@
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #f7f9fb;
+  color: #334155;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #1e1b4b 0%, #1e3a8a 100%);
+}
+
+.clip-path-bottom {
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 5% 100%, 0 90%);
+}
+
+.clip-path-top {
+  clip-path: polygon(5% 0, 95% 0, 100% 10%, 100% 100%, 0 100%, 0 10%);
+}
+
+.footer-gradient {
+  background: linear-gradient(180deg, #1e3a8a 0%, #38bdf8 100%);
+}
+
+/* Simple Accordion implementation for visual structure */
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #f7f9fb;
+      color: #334155;
+    }
+    
+    .hero-gradient {
+      background: linear-gradient(135deg, #1e1b4b 0%, #1e3a8a 100%);
+    }
+
+    .clip-path-bottom {
+      clip-path: polygon(0 0, 100% 0, 100% 90%, 95% 100%, 5% 100%, 0 90%);
+    }
+
+    .clip-path-top {
+       clip-path: polygon(5% 0, 95% 0, 100% 10%, 100% 100%, 0 100%, 0 10%);
+    }
+
+    .footer-gradient {
+       background: linear-gradient(180deg, #1e3a8a 0%, #38bdf8 100%);
+    }
+
+    /* Simple Accordion implementation for visual structure */
+    details > summary {
+      list-style: none;
+    }
+    details > summary::-webkit-details-marker {
+      display: none;
+    }
